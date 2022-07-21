@@ -1,0 +1,235 @@
+/* reset  default margin and padding*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* utilility classes */
+.contanier{
+    max-width: 1900px;
+    margin: auto;
+    overflow: hidden;
+}
+.lead{
+    font-size: 20px;
+}
+p{
+    margin: 10px 0;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+.btn{
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.clr{
+    clear: both;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-orange{
+    background-color: #f7c08a;
+    color: #333;
+}
+/* navbar */
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+#navbar a{
+    color: #fff;
+    margin-right: 20px;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar ul{
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    color: #f7c08a;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    background-color: #444;
+}
+/* showcase */
+#showcase{
+    background-image: url(/images/showcase.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    font-weight: 1.2em;
+}
+#showcase .showcase-content p{
+    line-height: 1.5em;
+
+}
+#showcase .showcase-content h1 span{
+    color: white;
+}
+/* home info */
+#home-info{
+    height: 500px;
+}
+#home-info .info-img{
+ float: left;
+ width:50% ;
+ background-image: url(/images/photo-1.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 500px;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #333;
+    color: white;
+
+}
+#home-info .info-content .btn{
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 10px;
+}
+/* features */
+.box{
+    float:left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    height: 300px;
+}
+/* footer */
+#main-footer{
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    line-height: 30px;
+    
+    
+}
+/*  About info */
+#about-info{
+    padding: 20px 0;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-left h1{
+    font-size: 40px;
+}
+#about-info  .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info  .info-right img{
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+}
+/* Testimonials */
+#testimonials{
+    height: 600px;
+    background-image: url(/images/test-bg.jpg);
+    background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 100px 0px;
+}
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+#testimonials .testimonial{
+    padding: 30px 0px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* contact */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form .form-group label{
+    display: block;
+}
+#contact-form .form-group input, #contact-form .form-group textarea
+{
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #ddd;   
+}
+#contact-form .form-group textarea{
+    height: 200px;
+}
+#contact-form form{
+    padding: 5px;
+}
+#contact-form .form-group input:focus, #contact-form .form-group textarea:focus{
+    border-color: #f7c08a;
+    outline: none;
+}
+.bx{
+    height: 400px;
+}
+#contact-info{
+    background-color: black;
+    height: 350px;
+    color: #fff;
+margin-top: 90px;
+}
+
